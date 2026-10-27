@@ -1,216 +1,171 @@
 {
-  "timestamp": "2023-10-27T13:30:00Z",
+  "timestamp": "2026-10-27T22:10:06Z",
   "macro_context": {
-    "market_regime": "Late Cycle Expansion / Disinflationary Drift",
-    "volatility_index_vix": 14.85,
-    "liquidity_condition": "Moderate to High",
-    "cognitive_bias_alert": "Recency bias on momentum continuation; enforce strict R-multiples."
+    "market_regime": "Selective Risk-On Led by Tech and Discretionary",
+    "volatility_index_vix": 17.52,
+    "liquidity_condition": "Moderate with sector dispersion",
+    "cognitive_bias_alert": "Recency bias on large overnight gaps and anchoring to prior 30-day highs"
   },
   "sector_health_scan": [
     {
       "sector": "Information Technology",
-      "etf_ticker": "XLK",
-      "relative_strength": "Bullish Outperformer",
-      "momentum_score_100": 88,
-      "flow_direction": "Institutional Inflow",
-      "flow_catalyst": "Hyperscaler capex acceleration and enterprise AI deployment."
+      "ticker": "XLK",
+      "price": 189.49,
+      "1d_change_pct": 1.7,
+      "5d_change_pct": 0.5
     },
     {
       "sector": "Communication Services",
-      "etf_ticker": "XLC",
-      "relative_strength": "Bullish Outperformer",
-      "momentum_score_100": 82,
-      "flow_direction": "Institutional Inflow",
-      "flow_catalyst": "Digital ad spend resilience and cost-discipline execution."
+      "ticker": "XLC",
+      "price": 103.58,
+      "1d_change_pct": -0.26,
+      "5d_change_pct": -4.95
     },
     {
       "sector": "Financials",
-      "etf_ticker": "XLF",
-      "relative_strength": "Neutral / Consolidation",
-      "momentum_score_100": 58,
-      "flow_direction": "Selective Rotation",
-      "flow_catalyst": "Steepening yield curve benefiting money-center banks over regionals."
+      "ticker": "XLF",
+      "price": 55.88,
+      "1d_change_pct": -0.25,
+      "5d_change_pct": -0.29
     },
     {
       "sector": "Healthcare",
-      "etf_ticker": "XLV",
-      "relative_strength": "Neutral / Defensive",
-      "momentum_score_100": 49,
-      "flow_direction": "Defensive Inflow",
-      "flow_catalyst": "GLP-1 clinical expansions offsetting medical device margin compression."
+      "ticker": "XLV",
+      "price": 179.18,
+      "1d_change_pct": -0.06,
+      "5d_change_pct": 0.13
     },
     {
       "sector": "Consumer Discretionary",
-      "etf_ticker": "XLY",
-      "relative_strength": "Bullish",
-      "momentum_score_100": 74,
-      "flow_direction": "Positive Flow",
-      "flow_catalyst": "E-commerce dominance mitigating softening brick-and-mortar retail."
+      "ticker": "XLD",
+      "price": 115.45,
+      "1d_change_pct": 1.04,
+      "5d_change_pct": -0.07
     },
     {
       "sector": "Consumer Staples",
-      "etf_ticker": "XLP",
-      "relative_strength": "Bearish Underperformer",
-      "momentum_score_100": 34,
-      "flow_direction": "Outflow",
-      "flow_catalyst": "Diminishing pricing power and consumer trade-down pressure."
+      "ticker": "XLP",
+      "price": 87.15,
+      "1d_change_pct": -0.92,
+      "5d_change_pct": 0.05
     },
     {
       "sector": "Energy",
-      "etf_ticker": "XLE",
-      "relative_strength": "Neutral / Reversal Watch",
-      "momentum_score_100": 52,
-      "flow_direction": "Mixed Rotation",
-      "flow_catalyst": "OPEC+ supply constraint discipline balancing uneven global demand."
+      "ticker": "XLE",
+      "price": 68.21,
+      "1d_change_pct": -2.05,
+      "5d_change_pct": 0.07
     },
     {
       "sector": "Industrials",
-      "etf_ticker": "XLI",
-      "relative_strength": "Bullish",
-      "momentum_score_100": 76,
-      "flow_direction": "Institutional Inflow",
-      "flow_catalyst": "Onshoring infrastructure spending and aerospace supply chain normalization."
+      "ticker": "XLI",
+      "price": 167.92,
+      "1d_change_pct": 0.57,
+      "5d_change_pct": -0.23
     },
     {
       "sector": "Materials",
-      "etf_ticker": "XLB",
-      "relative_strength": "Neutral",
-      "momentum_score_100": 45,
-      "flow_direction": "Flat",
-      "flow_catalyst": "Chemical softness offset by copper and precious metals demand."
+      "ticker": "XLB",
+      "price": 51.78,
+      "1d_change_pct": 0.78,
+      "5d_change_pct": 0.9
     },
     {
       "sector": "Utilities",
-      "etf_ticker": "XLU",
-      "relative_strength": "Bullish Outperformer",
-      "momentum_score_100": 79,
-      "flow_direction": "Institutional Inflow",
-      "flow_catalyst": "Surging baseline power demand for generative AI data centers."
+      "ticker": "XLU",
+      "price": 42.85,
+      "1d_change_pct": 0.71,
+      "5d_change_pct": 2.02
     },
     {
       "sector": "Real Estate",
-      "etf_ticker": "XLRE",
-      "relative_strength": "Bearish / Neutral",
-      "momentum_score_100": 41,
-      "flow_direction": "Outflow",
-      "flow_catalyst": "Refinancing hurdles in commercial real estate cap upside."
+      "ticker": "XLRE",
+      "price": 42.44,
+      "1d_change_pct": -0.84,
+      "5d_change_pct": 0.9
     },
     {
-      "sector": "Digital Assets & Infrastructure",
-      "etf_ticker": "IBIT",
-      "relative_strength": "High Beta Leader",
-      "momentum_score_100": 91,
-      "flow_direction": "Aggressive Inflow",
-      "flow_catalyst": "Sovereign liquidity expansion and institutional spot ETF absorption."
+      "sector": "Digital Assets",
+      "ticker": "IBIT",
+      "price": 45.7,
+      "1d_change_pct": 1.06,
+      "5d_change_pct": -4.47
     }
   ],
   "recommendations": {
     "day_trading": [
       {
-        "ticker": "NVDA",
-        "instrument_type": "Equities / Options",
-        "setup_type": "Morning Range Breakout (HOD)",
-        "catalyst": "Pre-market semiconductor supplier volume spike; high relative volume (rVOL > 2.1).",
-        "levels": {
-          "entry": 128.50,
-          "stop_loss": 126.80,
-          "target_1": 131.00,
-          "target_2": 133.20
-        },
-        "execution_notes": "Watch 5-minute opening range high; size down if market breadth narrows."
+        "ticker": "BA",
+        "rationale": "High relative volume of 5.79 following a -10.69% prior-day decline, testing multi-week support.",
+        "entry": 168.04,
+        "stop_loss": 167.41,
+        "target_1": 168.18,
+        "target_2": 187.86
+      },
+      {
+        "ticker": "HOOD",
+        "rationale": "Large overnight gap down of -7.86% creating an opening range break or mean reversion opportunity.",
+        "entry": 87.13,
+        "stop_loss": 86.0,
+        "target_1": 94.02,
+        "target_2": 96.71
       },
       {
         "ticker": "TSLA",
-        "instrument_type": "Equities / Options",
-        "setup_type": "Mean Reversion / VWAP Pinch",
-        "catalyst": "Overextended morning selloff down to daily 200 EMA with bullish divergence on 2-min RSI.",
-        "levels": {
-          "entry": 218.20,
-          "stop_loss": 215.75,
-          "target_1": 222.00,
-          "target_2": 224.50
-        },
-        "execution_notes": "Confirm tape speed and ask-side clearing before executing full size."
-      },
-      {
-        "ticker": "COIN",
-        "instrument_type": "Equities / Options",
-        "setup_type": "High-Beta Momentum Continuation",
-        "catalyst": "Correlated Bitcoin breakout above key liquidity level; implied volatility expansion.",
-        "levels": {
-          "entry": 224.00,
-          "stop_loss": 220.50,
-          "target_1": 229.50,
-          "target_2": 234.00
-        },
-        "execution_notes": "Strict trail using 9-EMA on the 3-minute timeframe."
+        "rationale": "Positive momentum with a 4.04% gain and premarket trading near the prior day high of 408.45.",
+        "entry": 407.93,
+        "stop_loss": 395.25,
+        "target_1": 408.45,
+        "target_2": 412.0
       }
     ],
     "swing_trading": [
       {
-        "ticker": "VST",
-        "timeframe": "2 to 6 Weeks",
-        "setup_type": "High Tight Flag / Volume Dry-Up",
-        "catalyst": "Nuclear/Power purchase agreements for Tier-1 data center supply; breaking out of 3-week base.",
-        "execution_plan": {
-          "entry_zone": "128.00 - 131.50",
-          "stop_loss": 121.00,
-          "profit_target": 148.00,
-          "risk_reward_ratio": "2.4:1"
-        },
-        "thesis": "Secular power re-rating combined with institutional accumulation on declining volume pullbacks."
+        "ticker": "AMD",
+        "rationale": "Strong prior day expansion (+5.45%) trading midway in its 30-day range with room to expand toward the high.",
+        "entry": 561.2,
+        "stop_loss": 502.6,
+        "target_1": 600.0,
+        "target_2": 658.52
       },
       {
-        "ticker": "GE",
-        "timeframe": "3 to 8 Weeks",
-        "setup_type": "Ascending Triangle Breakout",
-        "catalyst": "Commercial aerospace multi-year order backlog execution and margin expansion.",
-        "execution_plan": {
-          "entry_zone": "184.00 - 187.00",
-          "stop_loss": 178.50,
-          "profit_target": 205.00,
-          "risk_reward_ratio": "2.7:1"
-        },
-        "thesis": "Industrials sector relative strength leader clearing multi-month resistance with institutional support."
+        "ticker": "META",
+        "rationale": "Testing the extreme lower boundary of its 30-day range at 619.22 on elevated volume.",
+        "entry": 619.63,
+        "stop_loss": 619.22,
+        "target_1": 695.0,
+        "target_2": 771.27
       },
       {
-        "ticker": "PLTR",
-        "timeframe": "2 to 4 Weeks",
-        "setup_type": "Pullback to 21-Day EMA",
-        "catalyst": "Commercial AIP customer expansion and S&P 500 inclusion-driven systematic fund rebalancing.",
-        "execution_plan": {
-          "entry_zone": "41.50 - 43.00",
-          "stop_loss": 38.80,
-          "profit_target": 50.00,
-          "risk_reward_ratio": "2.6:1"
-        },
-        "thesis": "Testing short-term moving average support after high-volume earnings gap; strong floor established."
+        "ticker": "RIOT",
+        "rationale": "Strong 1-day momentum (+7.70%) bouncing off the lower bound of its 30-day range.",
+        "entry": 13.61,
+        "stop_loss": 11.79,
+        "target_1": 18.0,
+        "target_2": 22.85
       }
     ],
     "long_term_investing": [
       {
         "ticker": "MSFT",
-        "timeframe": "3 to 5+ Years",
-        "thesis": "Dominant commercial cloud ecosystem uniquely positioned to monetize enterprise-grade AI applications across operating systems, productivity suites, and cybersecurity infrastructure.",
-        "valuation_metric": "31.5x Forward P/E against 16% expected ROIC expansion",
-        "allocation_tier": "Core Tier 1 (5-8% Portfolio Weight)",
-        "risk_factors": "Antitrust scrutiny in cloud-AI tie-ups; temporary enterprise IT spending deceleration."
+        "rationale": "Dominant position in Information Technology with sector leading gains and solid 30-day consolidation.",
+        "current_price": 531.33,
+        "30d_low": 502.22,
+        "30d_high": 551.15
       },
       {
         "ticker": "ASML",
-        "timeframe": "3 to 5+ Years",
-        "thesis": "Absolute monopoly on High-NA Extreme Ultraviolet (EUV) photolithography technology required for all sub-3nm chip manufacturing globally. Critical bottleneck of next-gen compute.",
-        "valuation_metric": "27.8x Forward P/E; structural 25%+ free cash flow margin profile",
-        "allocation_tier": "Strategic Growth (3-5% Portfolio Weight)",
-        "risk_factors": "Geopolitical export controls to China; cyclical lumpiness in foundry fab construction timelines."
+        "rationale": "Key semiconductor equipment monopoly trading within its 30-day structural range.",
+        "current_price": 1635.57,
+        "30d_low": 1550.0,
+        "30d_high": 1873.5
       },
       {
         "ticker": "AMZN",
-        "timeframe": "3 to 5+ Years",
-        "thesis": "High-margin inflection point driven by AWS re-acceleration, automated fulfillment center robotics driving retail margin expansion, and scaling digital advertising market share.",
-        "valuation_metric": "13.2x Forward EV/EBITDA; fastest-growing mega-cap free cash flow generator",
-        "allocation_tier": "Core Tier 1 (5-7% Portfolio Weight)",
-        "risk_factors": "Regulatory antitrust pressure on marketplace bundling; intensified competition from Azure and GCP."
+        "rationale": "Resilient consumer and cloud platform trading within a well-defined 30-day boundary.",
+        "current_price": 253.1,
+        "30d_low": 244.73,
+        "30d_high": 265.34
       }
     ]
   }
