@@ -1,0 +1,26 @@
+name: Daily Market Report
+
+on:
+  schedule:
+    - cron: '0 10 * * *' # Runs at 10:00 UTC (6:00 AM NY time)
+  workflow_dispatch: # This lets you click a button to test it manually
+
+jobs:
+  run-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Grab my code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Google AI tool
+        run: pip install google-generativeai
+
+      - name: Run the script
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python api_server.py
