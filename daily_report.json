@@ -1,171 +1,222 @@
 {
-  "timestamp": "2026-10-27T22:10:06Z",
+  "timestamp": "2026-10-27T22:18:31Z",
   "macro_context": {
-    "market_regime": "Selective Risk-On Led by Tech and Discretionary",
+    "market_regime": "Selective Growth & Technology Outperformance",
     "volatility_index_vix": 17.52,
-    "liquidity_condition": "Moderate with sector dispersion",
-    "cognitive_bias_alert": "Recency bias on large overnight gaps and anchoring to prior 30-day highs"
+    "liquidity_condition": "Stable / High Participation in Leading Sectors",
+    "cognitive_bias_alert": "Avoid chasing extended tech gap-ups; watch for recency bias in oversold high-volume drops."
   },
   "sector_health_scan": [
     {
       "sector": "Information Technology",
-      "ticker": "XLK",
+      "etf_ticker": "XLK",
       "price": 189.49,
       "1d_change_pct": 1.7,
-      "5d_change_pct": 0.5
+      "5d_change_pct": 0.5,
+      "relative_strength": "Bullish Outperformer",
+      "momentum_score_100": 88,
+      "flow_direction": "Institutional Inflow"
     },
     {
       "sector": "Communication Services",
-      "ticker": "XLC",
+      "etf_ticker": "XLC",
       "price": 103.58,
       "1d_change_pct": -0.26,
-      "5d_change_pct": -4.95
+      "5d_change_pct": -4.95,
+      "relative_strength": "Bearish Underperformer",
+      "momentum_score_100": 34,
+      "flow_direction": "Outflow"
     },
     {
       "sector": "Financials",
-      "ticker": "XLF",
+      "etf_ticker": "XLF",
       "price": 55.88,
       "1d_change_pct": -0.25,
-      "5d_change_pct": -0.29
+      "5d_change_pct": -0.29,
+      "relative_strength": "Neutral",
+      "momentum_score_100": 48,
+      "flow_direction": "Selective Rotation"
     },
     {
       "sector": "Healthcare",
-      "ticker": "XLV",
+      "etf_ticker": "XLV",
       "price": 179.18,
       "1d_change_pct": -0.06,
-      "5d_change_pct": 0.13
+      "5d_change_pct": 0.13,
+      "relative_strength": "Neutral",
+      "momentum_score_100": 51,
+      "flow_direction": "Selective Rotation"
     },
     {
       "sector": "Consumer Discretionary",
-      "ticker": "XLD",
+      "etf_ticker": "XLY",
       "price": 115.45,
       "1d_change_pct": 1.04,
-      "5d_change_pct": -0.07
+      "5d_change_pct": -0.07,
+      "relative_strength": "Bullish",
+      "momentum_score_100": 74,
+      "flow_direction": "Institutional Inflow"
     },
     {
       "sector": "Consumer Staples",
-      "ticker": "XLP",
+      "etf_ticker": "XLP",
       "price": 87.15,
       "1d_change_pct": -0.92,
-      "5d_change_pct": 0.05
+      "5d_change_pct": 0.05,
+      "relative_strength": "Bearish Underperformer",
+      "momentum_score_100": 42,
+      "flow_direction": "Outflow"
     },
     {
       "sector": "Energy",
-      "ticker": "XLE",
+      "etf_ticker": "XLE",
       "price": 68.21,
       "1d_change_pct": -2.05,
-      "5d_change_pct": 0.07
+      "5d_change_pct": 0.07,
+      "relative_strength": "Bearish Underperformer",
+      "momentum_score_100": 30,
+      "flow_direction": "Outflow"
     },
     {
       "sector": "Industrials",
-      "ticker": "XLI",
+      "etf_ticker": "XLI",
       "price": 167.92,
       "1d_change_pct": 0.57,
-      "5d_change_pct": -0.23
+      "5d_change_pct": -0.23,
+      "relative_strength": "Neutral",
+      "momentum_score_100": 59,
+      "flow_direction": "Selective Rotation"
     },
     {
       "sector": "Materials",
-      "ticker": "XLB",
+      "etf_ticker": "XLB",
       "price": 51.78,
       "1d_change_pct": 0.78,
-      "5d_change_pct": 0.9
+      "5d_change_pct": 0.9,
+      "relative_strength": "Bullish",
+      "momentum_score_100": 68,
+      "flow_direction": "Selective Rotation"
     },
     {
       "sector": "Utilities",
-      "ticker": "XLU",
+      "etf_ticker": "XLU",
       "price": 42.85,
       "1d_change_pct": 0.71,
-      "5d_change_pct": 2.02
+      "5d_change_pct": 2.02,
+      "relative_strength": "Bullish Outperformer",
+      "momentum_score_100": 81,
+      "flow_direction": "Institutional Inflow"
     },
     {
       "sector": "Real Estate",
-      "ticker": "XLRE",
+      "etf_ticker": "XLRE",
       "price": 42.44,
       "1d_change_pct": -0.84,
-      "5d_change_pct": 0.9
+      "5d_change_pct": 0.9,
+      "relative_strength": "Neutral",
+      "momentum_score_100": 52,
+      "flow_direction": "Selective Rotation"
     },
     {
       "sector": "Digital Assets",
-      "ticker": "IBIT",
+      "etf_ticker": "IBIT",
       "price": 45.7,
       "1d_change_pct": 1.06,
-      "5d_change_pct": -4.47
+      "5d_change_pct": -4.47,
+      "relative_strength": "Neutral",
+      "momentum_score_100": 50,
+      "flow_direction": "Selective Rotation"
     }
   ],
   "recommendations": {
     "day_trading": [
       {
         "ticker": "BA",
-        "rationale": "High relative volume of 5.79 following a -10.69% prior-day decline, testing multi-week support.",
+        "setup_type": "Capitulation Mean Reversion",
+        "rationale": "High RVOL of 5.79 indicating institutional liquidity absorption following a -10.69% prior 1D drop with negligible -0.08% overnight gap.",
         "entry": 168.04,
-        "stop_loss": 167.41,
-        "target_1": 168.18,
-        "target_2": 187.86
+        "stop_loss": 165.4,
+        "target_1": 173.32,
+        "target_2": 175.96
       },
       {
         "ticker": "HOOD",
-        "rationale": "Large overnight gap down of -7.86% creating an opening range break or mean reversion opportunity.",
-        "entry": 87.13,
-        "stop_loss": 86.0,
-        "target_1": 94.02,
-        "target_2": 96.71
+        "setup_type": "Gap-Down Reversal / Liquidity Trap",
+        "rationale": "Overnight gap down of -7.62% following a +1.85% prior 1D session with 1.33 RVOL, offering a clear asymmetric recovery trade against ATR extremes.",
+        "entry": 87.35,
+        "stop_loss": 84.92,
+        "target_1": 92.21,
+        "target_2": 94.64
       },
       {
-        "ticker": "TSLA",
-        "rationale": "Positive momentum with a 4.04% gain and premarket trading near the prior day high of 408.45.",
-        "entry": 407.93,
-        "stop_loss": 395.25,
-        "target_1": 408.45,
-        "target_2": 412.0
+        "ticker": "RIOT",
+        "setup_type": "High Beta Momentum Continuation",
+        "rationale": "Strong prior 1D surge of 7.7% on 1.24 RVOL with a flat overnight gap (-0.07%), setting up continuation alongside digital asset strength.",
+        "entry": 13.55,
+        "stop_loss": 12.99,
+        "target_1": 14.67,
+        "target_2": 15.23
       }
     ],
     "swing_trading": [
       {
         "ticker": "AMD",
-        "rationale": "Strong prior day expansion (+5.45%) trading midway in its 30-day range with room to expand toward the high.",
-        "entry": 561.2,
-        "stop_loss": 502.6,
-        "target_1": 600.0,
-        "target_2": 658.52
+        "timeframe": "2 to 6 Weeks",
+        "setup_type": "Range Breakout Momentum",
+        "rationale": "Trading at 561.65 within a 30-day range of 502.60 to 658.52 supported by 1.06 RVOL and strong semiconductor industry tailwinds.",
+        "entry": 561.65,
+        "stop_loss": 525.24,
+        "target_1": 634.47,
+        "target_2": 670.88,
+        "risk_reward_ratio": "2.0:1 to 3.0:1"
+      },
+      {
+        "ticker": "TSLA",
+        "timeframe": "2 to 6 Weeks",
+        "setup_type": "High-Tight Consolidation Breakout",
+        "rationale": "Pushing near 30-day highs (408.45 vs current 408.02) from 345.88 lows on elevated 1.21 RVOL, signaling powerful upward accumulation.",
+        "entry": 408.02,
+        "stop_loss": 391.28,
+        "target_1": 441.5,
+        "target_2": 458.24,
+        "risk_reward_ratio": "2.0:1 to 3.0:1"
       },
       {
         "ticker": "META",
-        "rationale": "Testing the extreme lower boundary of its 30-day range at 619.22 on elevated volume.",
-        "entry": 619.63,
-        "stop_loss": 619.22,
-        "target_1": 695.0,
-        "target_2": 771.27
-      },
-      {
-        "ticker": "RIOT",
-        "rationale": "Strong 1-day momentum (+7.70%) bouncing off the lower bound of its 30-day range.",
-        "entry": 13.61,
-        "stop_loss": 11.79,
-        "target_1": 18.0,
-        "target_2": 22.85
+        "timeframe": "2 to 6 Weeks",
+        "setup_type": "Range-Low Structural Support Bounce",
+        "rationale": "Testing critical 30-day support at 619.22 (current 619.48) off 771.27 highs with heavy 2.56 RVOL institutional interest defining clear risk.",
+        "entry": 619.48,
+        "stop_loss": 585.54,
+        "target_1": 687.36,
+        "target_2": 721.3,
+        "risk_reward_ratio": "2.0:1 to 3.0:1"
       }
     ],
     "long_term_investing": [
       {
-        "ticker": "MSFT",
-        "rationale": "Dominant position in Information Technology with sector leading gains and solid 30-day consolidation.",
-        "current_price": 531.33,
-        "30d_low": 502.22,
-        "30d_high": 551.15
-      },
-      {
-        "ticker": "ASML",
-        "rationale": "Key semiconductor equipment monopoly trading within its 30-day structural range.",
-        "current_price": 1635.57,
-        "30d_low": 1550.0,
-        "30d_high": 1873.5
+        "ticker": "GOOGL",
+        "timeframe": "3 to 5+ Years",
+        "rationale": "Trading just 1.26% above its 30-day low of 316.60 offering a high-conviction value entry underpinned by monopolistic search dominance and cloud cash flows.",
+        "current_price": 320.58,
+        "30d_low": 316.6,
+        "30d_high": 359.4
       },
       {
         "ticker": "AMZN",
-        "rationale": "Resilient consumer and cloud platform trading within a well-defined 30-day boundary.",
+        "timeframe": "3 to 5+ Years",
+        "rationale": "Located 3.42% above its 30-day low of 244.73, providing an optimal multi-year entry point backed by secular AWS and e-commerce infrastructure scale.",
         "current_price": 253.1,
         "30d_low": 244.73,
         "30d_high": 265.34
+      },
+      {
+        "ticker": "JPM",
+        "timeframe": "3 to 5+ Years",
+        "rationale": "Priced 3.56% above its 30-day base of 324.25, capitalizing on premier balance sheet strength and dominant net interest margin durability.",
+        "current_price": 335.79,
+        "30d_low": 324.25,
+        "30d_high": 344.4
       }
     ]
   }
