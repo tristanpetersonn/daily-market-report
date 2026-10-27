@@ -28,4 +28,4 @@ try:
     
 except Exception as e:
     # If the internet drops, it hands Muse a clean error instead of exploding
-    print(f'{{"error": "Could not generate today's report. Reason: {e}"}}')
+    print(f'{{"error": "Could not generate todays report. Reason: {e}"}}')
