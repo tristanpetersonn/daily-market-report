@@ -2,8 +2,11 @@ name: Daily Market Report
 
 on:
   schedule:
-    - cron: '0 10 * * *' # Runs at 10:00 UTC (6:00 AM NY time)
-  workflow_dispatch: # This lets you click a button to test it manually
+    - cron: '0 10 * * *' 
+  workflow_dispatch: 
+
+permissions:
+  contents: write # This gives the robot permission to save the file
 
 jobs:
   run-report:
@@ -20,7 +23,16 @@ jobs:
       - name: Install Google AI tool
         run: pip install google-generativeai
 
-      - name: Run the script
+      - name: Run script and create JSON file
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python api_server.py
+        # The ">" symbol catches the printed text and creates a file out of it
+        run: python api_server.py > daily_report.json
+
+      - name: Save and upload the file back to GitHub
+        run: |
+          git config --global user.name "Market Bot"
+          git config --global user.email "bot@example.com"
+          git add daily_report.json
+          git commit -m "Fresh daily market report" || exit 0
+          git push
