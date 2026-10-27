@@ -2,11 +2,11 @@ name: Daily Market Report
 
 on:
   schedule:
-    - cron: '0 10 * * *' 
+    - cron: '47 10 * * 1-5' # Runs Mon-Fri, dodges top-of-hour server lag
   workflow_dispatch: 
 
 permissions:
-  contents: write # This gives the robot permission to save the file
+  contents: write
 
 jobs:
   run-report:
@@ -23,11 +23,10 @@ jobs:
       - name: Install Google AI and Market Data tools
         run: pip install google-generativeai yfinance
 
-      - name: Run script and create JSON file
+      - name: Run script and validate JSON file
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        # The ">" symbol catches the printed text and creates a file out of it
-        run: python api_server.py > daily_report.json
+        run: python api_server.py
 
       - name: Save and upload the file back to GitHub
         run: |
