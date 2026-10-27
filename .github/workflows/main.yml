@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Google AI tool
-        run: pip install google-generativeai
+      - name: Install Google AI and Market Data tools
+        run: pip install google-generativeai yfinance
 
       - name: Run script and create JSON file
         env:
