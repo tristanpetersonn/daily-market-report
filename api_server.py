@@ -8,7 +8,7 @@ genai.configure(api_key=api_key)
 
 # 2. JSON LOCK & PERSONA: Sets your exact rules and forces pure data output
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-1.5-flash-latest",
     system_instruction="You are an advanced automated trading and cognitive performance co-pilot. Your output must strictly be a valid JSON data structure.",
     generation_config={"response_mime_type": "application/json"} # This is the magic lock
 )
