@@ -177,7 +177,7 @@ try:
         raise RuntimeError("Yahoo Finance returned empty dataset. Aborting to protect existing JSON.")
 
     model = genai.GenerativeModel(
-        model_name="gemini-3.8-flash",
+        model_name="gemini-1.5-flash",
         system_instruction="""You are an elite quantitative trading and cognitive performance co-pilot. 
         CRITICAL RULES:
         1. Copy the EXACT 'etf_ticker' strings from the input data.
