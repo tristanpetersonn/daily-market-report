@@ -250,26 +250,51 @@ try:
     }}
     """
 
-    # Auto-Retry Loop: Handles temporary Free Tier 429 rate-limit spikes
-    response = None
-    for attempt in range(4):
+# Auto-Retry Loop with Quota Safeguard Flag
+    response_text = None
+    api_limited_flag = False
+    
+    for attempt in range(3):
         try:
             response = model.generate_content(prompt)
+            response_text = response.text
+            api_limited_flag = False
             break
         except Exception as api_err:
-            if "429" in str(api_err) and attempt < 3:
-                wait_time = (attempt + 1) * 15  # Waits 15s, 30s, 45s before retrying
-                print(f"Rate limit blip (429). Waiting {wait_time}s before retry #{attempt + 1}...")
-                time.sleep(wait_time)
+            if "429" in str(api_err) and attempt < 2:
+                time.sleep(20)
             else:
-                raise api_err
+                print(f"API Quota hit ({api_err}). Switching to structural fallback report...")
+                api_limited_flag = True
+                fallback_data = {
+                    "timestamp": market_reality["timestamp_utc"],
+                    "api_request_limited": True,  # Explicit JSON flag
+                    "macro_context": {
+                        "market_regime": "Algorithmic Fallback Mode (API Quota Safeguard Active)",
+                        "volatility_index_vix": market_reality["vix"],
+                        "liquidity_condition": "Stable / Data-Driven",
+                        "cognitive_bias_alert": "API rate-limit reached; relying on raw exchange metrics."
+                    },
+                    "sector_health_scan": market_reality["sectors"],
+                    "recommendations": {
+                        "day_trading": market_reality["day_trade_candidates"],
+                        "swing_trading": market_reality["swing_trade_candidates"],
+                        "long_term_investing": market_reality["long_term_value_pullbacks"]
+                    }
+                }
+                response_text = json.dumps(fallback_data, indent=2)
+                break
 
-    parsed_json = json.loads(response.text)
+    parsed_json = json.loads(response_text)
     
+    # Ensure the field is present even on successful Gemini responses
+    if "api_request_limited" not in parsed_json:
+        parsed_json["api_request_limited"] = api_limited_flag
+
     with open("daily_report.json", "w") as f:
         json.dump(parsed_json, f, indent=2)
         
-    print("Successfully generated and verified math-locked daily_report.json")
+    print("Successfully generated and verified daily_report.json (API Limited: {})".format(api_limited_flag))
     
 except Exception as e:
     print(f"CRITICAL PIPELINE FAILURE: {e}", file=sys.stderr)
