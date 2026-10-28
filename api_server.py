@@ -168,6 +168,8 @@ def harvest_dynamic_market_data():
 
     return live_data
 
+import time
+
 try:
     market_reality = harvest_dynamic_market_data()
     
@@ -248,7 +250,20 @@ try:
     }}
     """
 
-    response = model.generate_content(prompt)
+    # Auto-Retry Loop: Handles temporary Free Tier 429 rate-limit spikes
+    response = None
+    for attempt in range(4):
+        try:
+            response = model.generate_content(prompt)
+            break
+        except Exception as api_err:
+            if "429" in str(api_err) and attempt < 3:
+                wait_time = (attempt + 1) * 15  # Waits 15s, 30s, 45s before retrying
+                print(f"Rate limit blip (429). Waiting {wait_time}s before retry #{attempt + 1}...")
+                time.sleep(wait_time)
+            else:
+                raise api_err
+
     parsed_json = json.loads(response.text)
     
     with open("daily_report.json", "w") as f:
