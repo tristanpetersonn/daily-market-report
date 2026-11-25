@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-11-24T11:36:01Z",
+  "timestamp": "2026-11-25T11:38:20Z",
   "api_request_limited": true,
   "macro_context": {
     "market_regime": "Algorithmic Fallback Mode (API Quota Safeguard Active)",
-    "volatility_index_vix": 29.09,
+    "volatility_index_vix": 29.6,
     "liquidity_condition": "Stable / Data-Driven",
     "cognitive_bias_alert": "API rate-limit reached; relying on raw exchange metrics."
   },
@@ -11,285 +11,285 @@
     {
       "sector": "Information Technology",
       "etf_ticker": "XLK",
-      "price": 162.38,
-      "1d_change_pct": 8.97,
-      "5d_change_pct": -0.54
+      "price": 157.09,
+      "1d_change_pct": -3.26,
+      "5d_change_pct": -4.1
     },
     {
       "sector": "Communication Services",
       "etf_ticker": "XLC",
-      "price": 103.6,
-      "1d_change_pct": 3.57,
-      "5d_change_pct": -1.58
+      "price": 104.45,
+      "1d_change_pct": 0.82,
+      "5d_change_pct": -1.07
     },
     {
       "sector": "Financials",
       "etf_ticker": "XLF",
-      "price": 55.65,
-      "1d_change_pct": 1.98,
-      "5d_change_pct": -2.49
+      "price": 56.11,
+      "1d_change_pct": 0.83,
+      "5d_change_pct": -0.55
     },
     {
       "sector": "Healthcare",
       "etf_ticker": "XLV",
-      "price": 179.42,
-      "1d_change_pct": 1.23,
-      "5d_change_pct": -3.14
+      "price": 184.72,
+      "1d_change_pct": 2.95,
+      "5d_change_pct": 1.96
     },
     {
       "sector": "Consumer Discretionary",
       "etf_ticker": "XLY",
-      "price": 116.93,
-      "1d_change_pct": 3.97,
-      "5d_change_pct": -0.15
+      "price": 117.72,
+      "1d_change_pct": 0.68,
+      "5d_change_pct": -1.24
     },
     {
       "sector": "Consumer Staples",
       "etf_ticker": "XLP",
-      "price": 90.38,
-      "1d_change_pct": -0.09,
-      "5d_change_pct": -1.18
+      "price": 91.88,
+      "1d_change_pct": 1.66,
+      "5d_change_pct": 0.77
     },
     {
       "sector": "Energy",
       "etf_ticker": "XLE",
-      "price": 59.87,
-      "1d_change_pct": -1.06,
-      "5d_change_pct": -5.51
+      "price": 60.45,
+      "1d_change_pct": 0.97,
+      "5d_change_pct": -1.37
     },
     {
       "sector": "Industrials",
       "etf_ticker": "XLI",
-      "price": 162.47,
-      "1d_change_pct": 3.9,
-      "5d_change_pct": -1.38
+      "price": 161.61,
+      "1d_change_pct": -0.53,
+      "5d_change_pct": -1.85
     },
     {
       "sector": "Materials",
       "etf_ticker": "XLB",
-      "price": 49.9,
-      "1d_change_pct": 3.23,
-      "5d_change_pct": -1.85
+      "price": 50.17,
+      "1d_change_pct": 0.54,
+      "5d_change_pct": -0.57
     },
     {
       "sector": "Utilities",
       "etf_ticker": "XLU",
-      "price": 43.32,
-      "1d_change_pct": 1.48,
-      "5d_change_pct": -0.23
+      "price": 43.4,
+      "1d_change_pct": 0.18,
+      "5d_change_pct": -0.34
     },
     {
       "sector": "Real Estate",
       "etf_ticker": "XLRE",
-      "price": 42.9,
-      "1d_change_pct": 1.04,
-      "5d_change_pct": -1.58
+      "price": 43.46,
+      "1d_change_pct": 1.31,
+      "5d_change_pct": -0.37
     },
     {
       "sector": "Digital Assets",
       "etf_ticker": "IBIT",
-      "price": 34.62,
-      "1d_change_pct": 4.85,
-      "5d_change_pct": -4.21
+      "price": 33.76,
+      "1d_change_pct": -2.48,
+      "5d_change_pct": -4.52
     }
   ],
   "recommendations": {
     "day_trading": {
-      "NVDA": {
-        "current_price": 156.3,
-        "overnight_gap_pct": -5.3,
-        "prior_1d_change_pct": 31.48,
-        "relative_volume_rvol": 2.71,
-        "atr_14d": 11.31,
+      "AMD": {
+        "current_price": 386.67,
+        "overnight_gap_pct": -6.44,
+        "prior_1d_change_pct": -8.86,
+        "relative_volume_rvol": 1.07,
+        "atr_14d": 44.26,
         "calculated_levels": {
-          "entry": 156.3,
-          "stop_loss": 150.64,
-          "target_1_2R": 167.62,
-          "target_2_3R": 173.28
+          "entry": 386.67,
+          "stop_loss": 364.54,
+          "target_1_2R": 430.93,
+          "target_2_3R": 453.06
+        }
+      },
+      "NVDA": {
+        "current_price": 147.41,
+        "overnight_gap_pct": -5.13,
+        "prior_1d_change_pct": -5.86,
+        "relative_volume_rvol": 1.23,
+        "atr_14d": 11.48,
+        "calculated_levels": {
+          "entry": 147.41,
+          "stop_loss": 141.67,
+          "target_1_2R": 158.89,
+          "target_2_3R": 164.63
         }
       },
       "ARM": {
-        "current_price": 168.25,
-        "overnight_gap_pct": -4.77,
-        "prior_1d_change_pct": 16.08,
-        "relative_volume_rvol": 1.29,
-        "atr_14d": 13.96,
+        "current_price": 151.0,
+        "overnight_gap_pct": -6.54,
+        "prior_1d_change_pct": -8.55,
+        "relative_volume_rvol": 0.88,
+        "atr_14d": 13.5,
         "calculated_levels": {
-          "entry": 168.25,
-          "stop_loss": 161.27,
-          "target_1_2R": 182.21,
-          "target_2_3R": 189.19
-        }
-      },
-      "SMCI": {
-        "current_price": 23.35,
-        "overnight_gap_pct": -4.82,
-        "prior_1d_change_pct": 13.3,
-        "relative_volume_rvol": 1.34,
-        "atr_14d": 2.11,
-        "calculated_levels": {
-          "entry": 23.35,
-          "stop_loss": 22.29,
-          "target_1_2R": 25.47,
-          "target_2_3R": 26.53
-        }
-      },
-      "FCX": {
-        "current_price": 47.58,
-        "overnight_gap_pct": -4.28,
-        "prior_1d_change_pct": 8.09,
-        "relative_volume_rvol": 1.45,
-        "atr_14d": 2.63,
-        "calculated_levels": {
-          "entry": 47.58,
-          "stop_loss": 46.26,
-          "target_1_2R": 50.22,
-          "target_2_3R": 51.54
+          "entry": 151.0,
+          "stop_loss": 144.25,
+          "target_1_2R": 164.5,
+          "target_2_3R": 171.25
         }
       },
       "MSTR": {
-        "current_price": 80.87,
-        "overnight_gap_pct": -4.18,
-        "prior_1d_change_pct": 8.48,
-        "relative_volume_rvol": 1.39,
-        "atr_14d": 7.56,
+        "current_price": 75.0,
+        "overnight_gap_pct": -3.29,
+        "prior_1d_change_pct": -8.12,
+        "relative_volume_rvol": 1.21,
+        "atr_14d": 7.23,
         "calculated_levels": {
-          "entry": 80.87,
-          "stop_loss": 77.09,
-          "target_1_2R": 88.43,
-          "target_2_3R": 92.21
+          "entry": 75.0,
+          "stop_loss": 71.39,
+          "target_1_2R": 82.22,
+          "target_2_3R": 85.83
         }
       },
-      "PLTR": {
-        "current_price": 155.25,
-        "overnight_gap_pct": -2.58,
-        "prior_1d_change_pct": 11.06,
-        "relative_volume_rvol": 1.28,
-        "atr_14d": 8.49,
+      "SMCI": {
+        "current_price": 21.65,
+        "overnight_gap_pct": -4.29,
+        "prior_1d_change_pct": -7.79,
+        "relative_volume_rvol": 0.83,
+        "atr_14d": 1.99,
         "calculated_levels": {
-          "entry": 155.25,
-          "stop_loss": 151.01,
-          "target_1_2R": 163.73,
-          "target_2_3R": 167.97
+          "entry": 21.65,
+          "stop_loss": 20.65,
+          "target_1_2R": 23.65,
+          "target_2_3R": 24.65
+        }
+      },
+      "AVGO": {
+        "current_price": 288.88,
+        "overnight_gap_pct": -4.05,
+        "prior_1d_change_pct": -3.98,
+        "relative_volume_rvol": 1.01,
+        "atr_14d": 19.2,
+        "calculated_levels": {
+          "entry": 288.88,
+          "stop_loss": 279.28,
+          "target_1_2R": 308.08,
+          "target_2_3R": 317.68
         }
       }
     },
     "swing_trading": {
-      "TSLA": {
-        "current_price": 380.2,
-        "prior_1d_change_pct": 11.46,
-        "relative_volume_rvol": 1.28,
-        "30d_high": 414.23,
-        "30d_low": 338.15,
-        "calculated_levels": {
-          "entry": 380.2,
-          "stop_loss": 353.16,
-          "target_1_2R": 434.28,
-          "target_2_3R": 461.32,
-          "risk_reward_ratio": "2.0:1 to 3.0:1"
-        }
-      },
-      "PLTR": {
-        "current_price": 155.25,
-        "prior_1d_change_pct": 11.06,
-        "relative_volume_rvol": 1.28,
-        "30d_high": 201.83,
-        "30d_low": 142.28,
-        "calculated_levels": {
-          "entry": 155.25,
-          "stop_loss": 142.52,
-          "target_1_2R": 180.71,
-          "target_2_3R": 193.44,
-          "risk_reward_ratio": "2.0:1 to 3.0:1"
-        }
-      },
-      "ORCL": {
-        "current_price": 110.6,
-        "prior_1d_change_pct": 12.34,
-        "relative_volume_rvol": 0.96,
-        "30d_high": 148.48,
-        "30d_low": 100.25,
-        "calculated_levels": {
-          "entry": 110.6,
-          "stop_loss": 99.84,
-          "target_1_2R": 132.12,
-          "target_2_3R": 142.88,
-          "risk_reward_ratio": "2.0:1 to 3.0:1"
-        }
-      },
       "MSTR": {
-        "current_price": 80.87,
-        "prior_1d_change_pct": 8.48,
-        "relative_volume_rvol": 1.39,
+        "current_price": 75.0,
+        "prior_1d_change_pct": -8.12,
+        "relative_volume_rvol": 1.21,
         "30d_high": 146.07,
-        "30d_low": 77.69,
+        "30d_low": 77.32,
         "calculated_levels": {
-          "entry": 80.87,
-          "stop_loss": 69.53,
-          "target_1_2R": 103.55,
-          "target_2_3R": 114.89,
+          "entry": 75.0,
+          "stop_loss": 64.16,
+          "target_1_2R": 96.68,
+          "target_2_3R": 107.52,
+          "risk_reward_ratio": "2.0:1 to 3.0:1"
+        }
+      },
+      "NKE": {
+        "current_price": 35.65,
+        "prior_1d_change_pct": 5.89,
+        "relative_volume_rvol": 1.24,
+        "30d_high": 41.1,
+        "30d_low": 32.89,
+        "calculated_levels": {
+          "entry": 35.65,
+          "stop_loss": 33.2,
+          "target_1_2R": 40.55,
+          "target_2_3R": 43.0,
+          "risk_reward_ratio": "2.0:1 to 3.0:1"
+        }
+      },
+      "SMCI": {
+        "current_price": 21.65,
+        "prior_1d_change_pct": -7.79,
+        "relative_volume_rvol": 0.83,
+        "30d_high": 36.4,
+        "30d_low": 21.47,
+        "calculated_levels": {
+          "entry": 21.65,
+          "stop_loss": 18.66,
+          "target_1_2R": 27.63,
+          "target_2_3R": 30.62,
           "risk_reward_ratio": "2.0:1 to 3.0:1"
         }
       },
       "FCX": {
-        "current_price": 47.58,
-        "prior_1d_change_pct": 8.09,
-        "relative_volume_rvol": 1.45,
+        "current_price": 46.47,
+        "prior_1d_change_pct": -3.98,
+        "relative_volume_rvol": 1.22,
         "30d_high": 66.66,
         "30d_low": 45.6,
         "calculated_levels": {
-          "entry": 47.58,
-          "stop_loss": 43.63,
-          "target_1_2R": 55.48,
-          "target_2_3R": 59.43,
+          "entry": 46.47,
+          "stop_loss": 42.65,
+          "target_1_2R": 54.11,
+          "target_2_3R": 57.93,
           "risk_reward_ratio": "2.0:1 to 3.0:1"
         }
       },
-      "MARA": {
-        "current_price": 5.34,
-        "prior_1d_change_pct": 9.63,
-        "relative_volume_rvol": 1.12,
-        "30d_high": 7.95,
-        "30d_low": 5.04,
+      "CRM": {
+        "current_price": 190.23,
+        "prior_1d_change_pct": 4.21,
+        "relative_volume_rvol": 1.15,
+        "30d_high": 250.99,
+        "30d_low": 179.92,
         "calculated_levels": {
-          "entry": 5.34,
-          "stop_loss": 4.31,
-          "target_1_2R": 7.4,
-          "target_2_3R": 8.43,
+          "entry": 190.23,
+          "stop_loss": 178.5,
+          "target_1_2R": 213.69,
+          "target_2_3R": 225.42,
+          "risk_reward_ratio": "2.0:1 to 3.0:1"
+        }
+      },
+      "COIN": {
+        "current_price": 100.04,
+        "prior_1d_change_pct": -5.91,
+        "relative_volume_rvol": 0.78,
+        "30d_high": 163.6,
+        "30d_low": 101.71,
+        "calculated_levels": {
+          "entry": 100.04,
+          "stop_loss": 89.02,
+          "target_1_2R": 122.08,
+          "target_2_3R": 133.1,
           "risk_reward_ratio": "2.0:1 to 3.0:1"
         }
       }
     },
     "long_term_investing": {
-      "MSFT": {
-        "current_price": 492.5,
-        "30d_low": 481.03,
-        "30d_high": 558.07,
-        "distance_above_30d_low_pct": 2.38
-      },
       "JPM": {
-        "current_price": 316.66,
+        "current_price": 317.1,
         "30d_low": 309.18,
         "30d_high": 359.8,
-        "distance_above_30d_low_pct": 2.42
+        "distance_above_30d_low_pct": 2.56
+      },
+      "MSFT": {
+        "current_price": 496.13,
+        "30d_low": 481.03,
+        "30d_high": 558.07,
+        "distance_above_30d_low_pct": 3.14
       },
       "LIN": {
-        "current_price": 517.0,
+        "current_price": 516.83,
         "30d_low": 498.35,
         "30d_high": 533.39,
-        "distance_above_30d_low_pct": 3.74
+        "distance_above_30d_low_pct": 3.71
+      },
+      "GOOGL": {
+        "current_price": 279.05,
+        "30d_low": 264.22,
+        "30d_high": 326.41,
+        "distance_above_30d_low_pct": 5.61
       },
       "V": {
-        "current_price": 409.4,
+        "current_price": 416.78,
         "30d_low": 393.27,
         "30d_high": 441.41,
-        "distance_above_30d_low_pct": 4.1
-      },
-      "MA": {
-        "current_price": 635.48,
-        "30d_low": 605.0,
-        "30d_high": 681.99,
-        "distance_above_30d_low_pct": 5.04
+        "distance_above_30d_low_pct": 5.98
       }
     }
   }
